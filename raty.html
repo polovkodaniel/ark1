@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kursy komputerowe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Js.js"></script>
+</head>
+<body>
+    <header>
+        <img src="baner.png" alt="kursy komputerowe">
+    </header>
+    <nav>
+        <div><a href="file:///C:/Users/Uczen09/Desktop/Polovko%20Daniel/Arkusze/ark1/index.html">Strona główna </a></div>
+        <div><a href="file:///C:/Users/Uczen09/Desktop/Polovko%20Daniel/Arkusze/ark1/raty.html">Koszt rat</a></div>
+        <div><a href="https://moje-szkolenia.pl/">Nasz partner</a></div>
+    </nav>
+    <main>
+        <h3>Oblicz miesięczną ratę</h3><br>
+        <label><input type="checkbox" class="kontrolki" name="kursy" value="React" id="Kurs1">Kurs React.js</label><br>
+        <label><input type="checkbox" class="kontrolki" name="kursy" value="js" id="Kurs2">Kurs JavaScript</label><br>
+        <label >Liczba rat:<input class="kontrolki" type="number" id="raty"><br></label>
+        <select class="kontrolki" id="miasto">
+            <option value="Warszawa">Warszawa</option>
+            <option value="Katowice">Katowice</option>
+            <option value="Gdansk">Gdańsk</option>
+        </select><br>
+        <button class="kontrolki" onclick="Oblicz()">Oblicz</button>
+        <p id="wynik"></p>
+    </main>
+    <footer>
+        <p>Autor strony: Polovko Daniel</p>
+    </footer>
+</body>
+</html>
